@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="pixel-sun"></div>
+  <div class="pixel-moon"></div>
+
+  <div class="pixel-cloud cloud1"></div>
+  <div class="pixel-cloud cloud2"></div>
+  <div class="pixel-cloud cloud3"></div>
+ 
+  <div class="pixel-stars"></div>
+  <header>
+   
+  </header>
+
+  <main>
+    <div class="bento-row">
+      <!-- About Me section -->
+      <section class="bento-box left intro-box reveal pixel-border">
+        <h1 class="pixel-text">Hello, I'm <span class="highlight">Myke Franciz Jimenez</span></h1>
+        <p class="pixel-text">Aspiring Web Developer</p>
+        <section id="contact">
+          <h2 class="pixel-text">Contact</h2>
+          <p class="pixel-text">
+            
+            <a href="mailto:jimenezmyke189@gmail.com" target="_blank" style="text-decoration:none; margin-right: 12px;">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg" alt="Email" style="width:22px; height:22px; vertical-align:middle; margin-right:4px;">
+              jimenezmyke189
+            </a>
+          </p>
+          <p class="pixel-text">
+            
+            <a href="https://github.com/CakeyFudo" target="_blank" style="text-decoration:none;">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" style="width:22px; height:22px; vertical-align:middle; margin-right:4px;">
+              CakeyFudo
+            </a>
+          </p>
+        </section>
+      </section>
+      <!-- Projects section -->
+      <section id="projects" class="bento-box right reveal pixel-border">
+        <h2 class="pixel-text">Recent Projects</h2>
+        <div class="projects-grid"
+          style="display: flex; flex-direction: column; gap: 2rem; align-items: center; width: 100%;">
+        
+          <div class="card pixel-border pixel-card"
+            style="width: 100%; max-width: 520px; height: 120px; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0;">
+            <h3 class="pixel-text" style="margin-bottom: 0.5rem;">Project 1: PetCare</h3>
+            <p class="pixel-text">Description of project 1</p>
+          </div>
+        
+          <div class="card pixel-border pixel-card"
+            style="width: 100%; max-width: 520px; height: 320px; display: flex; align-items: center; justify-content: center; padding: 0; margin: 0;">
+            <img src="petcare.png" alt="Pet Care Project Screenshot"
+              style="width:100%; height:100%; object-fit:cover; border-radius:12px; box-shadow:0 4px 24px #0006; display:block;">
+          </div>
+        </div>
+      </section>
+    </div>
+   
+    <div class="bento-row">
+      <section class="bento-box skills-box reveal pixel-border" style="max-width:900px; margin:2rem auto;">
+        <h2 class="pixel-text">Skills & Tools</h2>
+        <div class="skills-grid" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+          <div style="flex:1 1 200px;">
+            <h3 class="pixel-text">Front End</h3>
+            <ul class="pixel-text">
+              <li>HTML5</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>TailwindCSS</li>
+              <li>TypeScript</li>
+            </ul>
+          </div>
+          <div style="flex:1 1 200px;">
+            <h3 class="pixel-text">Back End</h3>
+            <ul class="pixel-text">
+              <li>Laravel</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+          <div style="flex:1 1 200px;">
+            <h3 class="pixel-text">Tools</h3>
+            <ul class="pixel-text">
+              <li>Git & GitHub</li>
+              <li>FlutterFlow</li>
+              <li>Firebase</li>
+              <li>XAMPP</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
