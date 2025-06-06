@@ -198,6 +198,13 @@ h1, h2, h3 {
   transform: none;
 }
 
+.project-desc {
+  transition: color 0.5s;
+}
+body.night-bg .project-desc {
+  color: #fff !important;
+}
+
 @media (max-width: 900px) {
   .bento-row {
     flex-direction: column;
